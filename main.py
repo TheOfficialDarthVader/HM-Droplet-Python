@@ -4,9 +4,9 @@ from Sim_Code.Verification_Tests import uc_mass_transfer as uc_mt
 from Sim_Code.Verification_Tests import heat_mass_transfer as hmt
 from Sim_Code.Simulation import sim as s
 
-vtest = True
+vtest = False
 etest = False
-stest = False
+stest = True
 
 # runs verification tests #
 if vtest is True:
